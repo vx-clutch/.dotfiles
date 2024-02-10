@@ -1,0 +1,9 @@
+{
+  "harpoon": { "branch": "master", "commit": "ccae1b9bec717ae284906b0bf83d720e59d12b91" },
+  "lazy.nvim": { "branch": "main", "commit": "aedcd79811d491b60d0a6577a9c1701063c2a609" },
+  "neovim": { "branch": "main", "commit": "ed4b138acec5af6f3fb39d41505f9a1a79a708ca" },
+  "nvim-treesitter": { "branch": "master", "commit": "143a342bd860d6e3d584edeb447fb49febab3355" },
+  "plenary.nvim": { "branch": "master", "commit": "4f71c0c4a196ceb656c824a70792f3df3ce6bb6d" },
+  "telescope.nvim": { "branch": "master", "commit": "0f865f17af4f9bc1587a0132414cdfd32d91852e" },
+  "undotree": { "branch": "master", "commit": "7df3be7a261ea31b528aa442b494fcb458f3d968" }
+}
