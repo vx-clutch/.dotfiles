@@ -1,2 +1,2 @@
-require("vxclutch.lazy")
 require("vxclutch.remap")
+require("vxclutch.lazy")
