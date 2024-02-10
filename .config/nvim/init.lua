@@ -1,2 +1,2 @@
--- Require "lua/vxclutch"
+-- Require "Lua/vxclutch"
 require("vxclutch")
