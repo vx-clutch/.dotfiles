@@ -1,20 +1,22 @@
 return {
-	-- one line imports
+	-- Theme
 	'rose-pine/neovim',
+	-- Librays
 	'nvim-lua/plenary.nvim',
+	-- Fuzzy Finders
 	'nvim-telescope/telescope.nvim',
 	'ThePrimeagen/harpoon',
+	-- Undotree
 	'mbbill/undotree',
+	-- Fugitive
 	'tpope/vim-fugitive',
-	{'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
-	'hrsh7th/cmp-nvim-lsp',
-	'hrsh7th/nvim-cmp',
-	'L3MON4D3/LuaSnip',
+	-- LSP
+	'VonHeikemen/lsp-zero.nvim',
 	'williamboman/mason.nvim',
 	'williamboman/mason-lspconfig.nvim',
 	'neovim/nvim-lspconfig',
   
-	-- multi line imports
+	-- Treesitter
 	{
 	  'nvim-treesitter/nvim-treesitter',  
 	  build = ':TSUpdate'
