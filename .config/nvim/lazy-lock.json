@@ -15,6 +15,7 @@
   "nvim-treesitter": { "branch": "master", "commit": "10e8dffb7961fae98cf83efa0e170c22ae2cd33a" },
   "plenary.nvim": { "branch": "master", "commit": "4f71c0c4a196ceb656c824a70792f3df3ce6bb6d" },
   "telescope.nvim": { "branch": "master", "commit": "0f865f17af4f9bc1587a0132414cdfd32d91852e" },
+  "todo-comments.nvim": { "branch": "main", "commit": "833d8dd8b07eeda37a09e99460f72a02616935cb" },
   "undotree": { "branch": "master", "commit": "9dbbf3b7d19dda0d22ceca461818e4739ad8154d" },
   "vim-fugitive": { "branch": "master", "commit": "ddedd5bd20b030dc6cbc8d4a83a4de5af77f8054" }
 }
