@@ -3,8 +3,8 @@ return {
 		"VonHeikemen/lsp-zero.nvim",
 		config = function()
       local lsp = require('lsp-zero')
+      lsp.extend_lspconfig()
 
-      require('lsp-zero')
       require('lspconfig').lua_ls.setup({})
 
       local cmp = require('cmp')
