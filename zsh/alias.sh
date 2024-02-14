@@ -9,4 +9,4 @@ alias ping='ping -c 4'
 alias zshconfig='nvim ~/.zshrc'
 alias ll='ls -lah'
 alias vim='nvim'
-alias cd="zoxide"
+alias cd="z"
