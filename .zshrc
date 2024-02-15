@@ -3,9 +3,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 export PATH=$PATH:/snap/bin
-source ~/.dotfiles/zsh/alias.sh
-source ~/.dotfiles/zsh/zap.sh
-source ~/.dotfiles/zsh/p10k.sh
+source ~/.dotfiles/.zsh/alias.sh
+source ~/.dotfiles/.zsh/zap.sh
+source ~/.dotfiles/.zsh/p10k.sh
 
 # Load and initialise completion system
 autoload -Uz compinit
