@@ -6,6 +6,8 @@
 - *stow*
 - *zsh*
 - *zap*
+- *nvim*
+- *tmux*
 
 ## Installation
 
