@@ -46,7 +46,49 @@ return {
 
       lsp.setup()
 
-      vim.diagnostic.config({
+    local cmp_action = require('lsp-zero').cmp_action()
+
+    require('luasnip.loaders.from_vscode').lazy_load()
+
+    -- `/` cmdline setup.
+    cmp.setup.cmdline('/', {
+        mapping = cmp.mapping.preset.cmdline(),
+        sources = {
+            { name = 'buffer' }
+        }
+    })
+
+    -- `:` cmdline setup.
+    cmp.setup.cmdline(':', {
+        mapping = cmp.mapping.preset.cmdline(),
+        sources = cmp.config.sources({
+            { name = 'path' }
+        }, {
+            {
+                name = 'cmdline',
+                option = {
+                    ignore_cmds = { 'Man', '!' }
+                }
+            }
+        })
+    })
+
+    cmp.setup({
+        sources = {
+            { name = 'nvim_lsp' },
+            { name = 'luasnip', keyword_length = 2 },
+            { name = 'buffer',  keyword_length = 3 },
+            { name = 'path' },
+        },
+        mapping = {
+            ['<C-f>'] = cmp_action.luasnip_jump_forward(),
+            ['<C-b>'] = cmp_action.luasnip_jump_backward(),
+            ['<Tab>'] = cmp_action.luasnip_supertab(),
+            ['<S-Tab>'] = cmp_action.luasnip_shift_supertab(),
+        },
+    })
+
+            vim.diagnostic.config({
           virtual_text = true
       })
 		end
