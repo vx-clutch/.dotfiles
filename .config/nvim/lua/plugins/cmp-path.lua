@@ -1,8 +1,3 @@
 return {
-	{
-		"hrsh7th/cmp-path",
-		config = function()
-
-		end
-	}
+		"hrsh7th/cmp-path"
 }
