@@ -3,11 +3,7 @@
 ## Prerequisites
 
 - *git*
-- *stow*
 - *zsh*
-- *zap*
-- *nvim*
-- *tmux*
 
 ## Installation
 
@@ -15,6 +11,6 @@
 git clone https://github.com/vx-clutch/.dotfiles.git $HOME/.dotfiles
 ```
 ```
-cd ~/.dotfiles
-stow .
+cd ~/.dotfiles/.zsh
+source ensureInstalled.sh
 ```
