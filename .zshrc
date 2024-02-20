@@ -1,7 +1,7 @@
 export PATH=$PATH:/snap/bin
 
-source ~/.dotfiles/.zsh/alias.sh
-source ~/.dotfiles/.zsh/zap.sh
+source Zsh/alias.sh
+source Zsh/plugins.sh
 
 # Load and initialise completion system
 autoload -Uz compinit
