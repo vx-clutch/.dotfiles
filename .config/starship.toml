@@ -1,5 +1,3 @@
-import = ["~/.dotfiles/.config/icons.toml"] 
-
 [directory]
 format = "[-->](fg:green) [$path](fg:cyan) "
 
