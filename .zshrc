@@ -1,7 +1,18 @@
-export PATH=$PATH:/snap/bin
+# history
+setopt histignorealldups sharehistory
+HISTSIZE=1000
+SAVEHIST=1000
+HISTFILE=~/.zsh_history
 
-source Zsh/alias.sh
-source Zsh/plugins.sh
+# LOADING ---------------------------------------------------------------------
+source .zsh/alias.sh
+source .zsh/plugins.sh
+
+# CONFIG ----------------------------------------------------------------------
+
+EDITOR=nvim
+SUDO_EDITOR='/usr/bin/nvim'
+VISUAL=nvim
 
 # Load and initialise completion system
 autoload -Uz compinit
