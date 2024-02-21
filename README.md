@@ -15,5 +15,6 @@ git clone https://github.com/vx-clutch/.dotfiles.git $HOME/.dotfiles
 ```
 cd ~/.dotfiles/.zsh
 sudo pacman -S $(cat paclist)
+zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1
 stow .
 ```
