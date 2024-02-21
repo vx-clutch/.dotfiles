@@ -1,8 +1,14 @@
+add_newline = false
+
+format = """
+[-> ](fg:red)\
+$directory\
+$git_branch
+$time
+"""
+
 [directory]
-format = "[-->](fg:green) [$path](fg:cyan) "
+style = "#008080"
 
 [git_branch]
-format = "on [$symbol$branch]($style) [$branch](fg:green) "
-
-[line_break]
-disabled = true
+format = "[git:(([\\($branch\\)](fg:red)))](fg:#6DACFA)"
