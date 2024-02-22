@@ -1,0 +1,6 @@
+paclist
+.git
+README.md
+.stow-local-ignore
+.gitmodules
+.gitignore
