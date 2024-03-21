@@ -10,9 +10,9 @@ source .zsh/plugins.sh
 
 # CONFIG ----------------------------------------------------------------------
 
-EDITOR=nvim
-SUDO_EDITOR='/usr/bin/nvim'
-VISUAL=nvim
+export EDITOR=nvim
+export SUDO_EDITOR='/usr/bin/nvim'
+export VISUAL=nvim
 
 # Load and initialise completion system
 autoload -Uz compinit
